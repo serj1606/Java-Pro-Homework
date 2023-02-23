@@ -9,7 +9,7 @@ public abstract class Obstacle {
         this.distance = distance;
     }
 
-    public abstract void overcome(Participant participant);
+    public abstract void overcome (Participant participant);
 
     public double getDistance() {
         return distance;

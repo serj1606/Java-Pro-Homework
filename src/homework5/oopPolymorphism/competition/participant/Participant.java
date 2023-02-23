@@ -51,7 +51,7 @@ public class Participant {
             printRemainder();
         } else {
             setOvercameObstacles(false);
-            System.out.println("Participant " + getName() + " not cleared obstacle " + obstacle.getClass().getSimpleName() + " at distance " + obstacle.getDistance() +
+            System.out.println("Participant  " + getName() + " not cleared obstacle " + obstacle.getClass().getSimpleName() + " at distance " + obstacle.getDistance() +
                     ". Cleared " + maxJumpingHeight);
             printRemainder();
         }
