@@ -3,8 +3,10 @@ package homework6.dataType;
 import java.util.Random;
 
 public class ListOfMethods {
-    void printThreeWords() {
-        System.out.println("Orange" + "\n" + "Banana" + "\n" + "Apple");
+    void printThreeWords() { // переробив на 3 sout
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
 
     void checkSumSign(int a, int b) {
@@ -33,11 +35,9 @@ public class ListOfMethods {
         }
     }
 
-    public boolean sumTenFromTwenty(int a, int b) {
-        if (((a + b) > 10) && ((a + b) <= 20)) {
-            return true;
-        }
-        return false;
+    public boolean sumTenFromTwenty(int a, int b) { // переробив додав суму та убрав false
+        int sum = a + b;
+        return ((sum) > 10) && ((sum) <= 20);
     }
 
     void checkPositiveNumber(int number) {
@@ -50,10 +50,7 @@ public class ListOfMethods {
     }
 
     public boolean checkNegativeNumber(int number) {
-        if (number < 0) {
-            return true;
-        }
-        return false;
+        return number < 0;
     }
 
     void printStringFromNumber(String str, int number) {
@@ -63,11 +60,8 @@ public class ListOfMethods {
 
     }
 
-    public boolean isLeapYear(int year) {
-        if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
-            return true;
-        }
-        return false;
+    public boolean isLeapYear(int year) {  //переробив убрав false
+        return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
     }
 
     public int getRandomNumber(int min, int max) {
