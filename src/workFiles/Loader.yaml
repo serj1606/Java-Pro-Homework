@@ -1,0 +1,7 @@
+FILE: src\\workFiles\\logs\\log.txt
+
+LEVEL: DEBUG
+
+MAX-SIZE: 100
+
+FORMAT: .txt
