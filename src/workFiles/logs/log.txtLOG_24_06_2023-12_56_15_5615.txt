@@ -1,0 +1,3 @@
+[12:56:15 пп ][INFO]notification: INFO
+[12:56:15 пп ][DEBUG]notification: DEBUG
+[12:56:15 пп ][INFO]notification: INFO
